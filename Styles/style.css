@@ -1,0 +1,227 @@
+h1 {
+    text-align: center;
+}
+.calendar-button {
+    background-color: #59939d;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 6px;
+    cursor: pointer;
+}
+
+/*For Contacts.Includes*/
+.d-flex button{
+    text-align: center;
+    margin: 1.5em 0.6em;
+    padding: 0.5em 2.4em;
+}
+.d-flex table{
+    margin: 1em 10em;
+}
+table .btnedit{
+    color: #294D56;
+    cursor: pointer;
+}
+table{
+border: 1px solid black;
+margin-left: auto;
+margin-right:auto;
+}
+.succes{
+    background-color: lightgreen;
+    padding: 1em;
+}
+.error{
+    background-color: tomato;
+    padding: 1em;
+}
+#logo {
+    background-color: #FFFFFF;
+    padding: 5px
+}
+.errorMessage{
+    color: red;
+}
+/*end Contacts.Includes*/
+ .logo{
+     image-position: right;
+ }
+ * {box-sizing: border-box;}
+
+ body {
+     margin: 0;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .topnav {
+     overflow: hidden;
+     background-color: white;
+ }
+
+ .topnav a {
+     float: right;
+     display: block;
+     color: black;
+     text-align: center;
+     padding: 20px 16px;
+     text-decoration: none;
+     font-size: 20px;
+     font-weight: bolder;
+ }
+
+ .topnav a:hover {
+     border-bottom: 3px solid dodgerblue;
+     color: dodgerblue;
+ }
+
+ .topnav a.active {
+     background-color: white;
+     color: dodgerblue;
+     text-decoration: underline;
+ }
+
+ .topnav .login-container {
+     float: right;
+ }
+
+ .topnav input[type=text] {
+     padding: 6px;
+     margin-top: 8px;
+     font-size: 17px;
+     border: none;
+     width:120px;
+ }
+
+ .topnav .login-container button {
+     float: right;
+     padding: 6px 10px;
+     margin-top: 8px;
+     margin-right: 16px;
+     background-color: #555;
+     color: white;
+     font-size: 17px;
+     border: none;
+     cursor: pointer;
+ }
+
+ .topnav .login-container button:hover {
+     background-color: green;
+ }
+
+ @media screen and (max-width: 600px) {
+     .topnav .login-container {
+         float: none;
+     }
+     .topnav a, .topnav input[type=text], .topnav .login-container button {
+         float: none;
+         display: block;
+         text-align: left;
+         width: 100%;
+         margin: 0;
+         padding: 14px;
+     }
+     .topnav input[type=text] {
+         border: 1px solid #ccc;
+     }
+ }
+ .open-button {
+     background-color: #59939d;
+     color: white;
+     padding: 16px 20px;
+     border: none;
+     cursor: pointer;
+     opacity: 0.8;
+     position: fixed;
+     bottom: 23px;
+     right: 28px;
+     width: 280px;
+ }
+
+ /* The popup form - hidden by default */
+ .form-popup {
+     display: none;
+     position: fixed;
+     bottom: 0;
+     right: 15px;
+     border: 3px solid #f1f1f1;
+     z-index: 9;
+ }
+
+ /* Add styles to the form container */
+ .form-container {
+     max-width: 300px;
+     padding: 10px;
+     background-color: white;
+ }
+
+ /* Full-width input fields */
+ .form-container input[type=text], .form-container input[type=password] {
+     width: 100%;
+     padding: 15px;
+     margin: 5px 0 22px 0;
+     border: none;
+     background: #f1f1f1;
+ }
+
+ /* When the inputs get focus, do something */
+ .form-container input[type=text]:focus, .form-container input[type=password]:focus {
+     background-color: #ddd;
+     outline: none;
+ }
+
+ /* Set a style for the submit/login button */
+ .form-container .btn {
+     background-color: #4CAF50;
+     color: white;
+     padding: 16px 20px;
+     border: none;
+     cursor: pointer;
+     width: 100%;
+     margin-bottom:10px;
+     opacity: 0.8;
+ }
+
+ /* Add a red background color to the cancel button */
+ .form-container .cancel {
+     background-color: red;
+ }
+
+ /* Add some hover effects to buttons */
+ .form-container .btn:hover, .open-button:hover {
+     opacity: 1;
+ }
+ .grid > div {
+     background: #eee ;
+     padding: 1em;
+ }
+
+ .grid > div:nth-child(odd){
+     background: #ddd;
+ }
+
+ .grid {
+     display:grid;
+     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+     grid-gap: 1rem;
+     grid-template-columns: 35% 65%;
+     grid-column-gap: 1em;
+     grid-row-gap: 1em;
+ }
+
+/*On screens that are 992px or less*/
+@media screen and (max-width: 992px) {
+    html , body{
+        background-color: lightgray;
+    }
+}
+/*On screens that aare 600px or less*/
+@media screen and (max-width: 600px){
+    html, body{
+        background-color: lightgray;
+    }
+}

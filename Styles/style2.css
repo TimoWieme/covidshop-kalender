@@ -1,0 +1,70 @@
+.grid > div {
+    background: #eee ;
+    padding: 1em;
+}
+
+.grid > div:nth-child(odd){
+    background: #ddd;
+}
+
+.grid {
+    display:grid;
+    grid-template-columns: 35% 65%;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+}
+
+* {box-sizing: border-box;}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: white;
+}
+
+.topnav a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.topnav a:hover {
+    color: dodgerblue;
+    border-bottom: 3px solid dodgerblue;
+}
+
+.topnav a.active {
+    background-color: white;
+    color: dodgerblue;
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+.button {
+    background-color: #59939d;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    width: 280px;
+}
+div.form-group-state {
+    position: relative;
+    right: 215px;
+    margin-bottom: 13px;
+}
